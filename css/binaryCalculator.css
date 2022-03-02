@@ -1,16 +1,14 @@
-#container {
+body {
     width: 33%;
 }
 
 #res {
 
-    width: 81%;
-
     height: 48px;
 
     font-size: 20px;
 
-    background: #d3d3d3;
+    background: lightgray;
 
     border: solid;
 
@@ -18,19 +16,22 @@
 
 .btnContainer {
 
-    width: 90%;
+    width: 100%;
 
 }
-
 	
 
 .btnContainer > .btnStyle1, .btnStyle2, .btnStyle3 {
 
-    width: 22%;
+    width: 25%;
 
     height: 36px;
 
     font-size: 18px;
+
+    margin: 0px;
+
+    float: left;
 
 }
 
