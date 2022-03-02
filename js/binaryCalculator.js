@@ -12,9 +12,11 @@ function buttonClicked(e) {
 
     if (btn.id != "btnClr" && btn.id != "btnEql") {
 
-        screen.innerHTML += btn.innerHTML;
-
-
+        if(btn.id == "btn0" || btn.id == "btn1") {
+            screen.innerHTML += btn.innerHTML;
+        } else if(screen.innerHTML != "" && btn.id != "btn0" && btn.id != "btn1") {
+            screen.innerHTML += btn.innerHTML;
+        }
 
         if (btn.id != "btn0" && btn.id != "btn1") {
 
